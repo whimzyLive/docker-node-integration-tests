@@ -1,0 +1,31 @@
+{
+  "name": "test-docker-node",
+  "version": "1.0.0",
+  "description": "Test project to demonstrate docker node",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --watch",
+    "start": "node ./dist/server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whimzyLive/test-docker-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whimzyLive/test-docker-node/issues"
+  },
+  "homepage": "https://github.com/whimzyLive/test-docker-node#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/mysql": "^2.15.9",
+    "jest": "^25.1.0",
+    "supertest": "^4.0.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
